@@ -12,12 +12,22 @@ gem 'pg', '~> 0.18.2'
 #=== Misc ==================================
 gem 'active_model_serializers', '~> 0.10.0.rc1'
 gem 'responders', '~> 2.1.0' # A set of Rails responders to dry up your application
-gem 'rails-api', '~> 0.4.0'
-gem 'bcrypt'
 gem 'rack-cors'
 
 #== Security ==============================
-gem 'doorkeeper', '~> 3.0.0.rc1' # Doorkeeper is an OAuth 2 provider gem for Rails and Ruby frameworks
+gem 'omniauth-facebook', '~> 2.0.1'
+gem 'warden', '~> 1.2.3'
+gem 'pundit', '~> 1.0.1'
+
+#=== Front-end ==============================
+gem 'sass-rails', '~> 5.0' # Use SCSS for stylesheets
+gem 'uglifier', '>= 1.3.0' # Use Uglifier as the compressor for JavaScript assets
+gem 'jquery-rails' # Use jquery as the JavaScript library
+gem 'simple_form', '~> 3.1.0'
+gem 'foundation-rails', '~> 5.5.2.1'
+gem 'turbolinks', '~> 2.5.3'
+gem 'foundation-icons-sass-rails', '~> 3.0.0'
+gem 'underscore-rails', '~> 1.8.2'
 
 group :documentation do
   gem 'yard-rails', '~> 0.3.0'
